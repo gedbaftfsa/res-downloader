@@ -57,17 +57,12 @@ Clean UI, easy to use, and supports a wide range of resource sniffing and downlo
 
 > **Personal note:** On macOS, if the proxy doesn't capture browser traffic automatically, make sure to set your system network proxy (HTTP + HTTPS) to `127.0.0.1:8899` manually in System Settings → Network.
 
+> **Personal note:** On macOS Sequoia (15+), you may also need to re-trust the installed certificate in Keychain Access → System → Certificates → find "res-downloader" → set to "Always Trust". Without this step, HTTPS traffic will not be captured even with the proxy set correctly.
+
 ---
 
 ## ❓ FAQ
 
 ### 📺 m3u8 Video Resources
 
-- Online Preview: [m3u8play](https://m3u8play.com/)
-- Download Tool: [m3u8-down](https://m3u8-down.gowas.cn/)
-
-### 📡 Live Stream Resources
-
-- We recommend [OBS](https://obsproject.com/) for recording (search for setup tutorials)
-
-##
+- Online Preview: [m3u8
